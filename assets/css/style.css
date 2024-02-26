@@ -542,7 +542,7 @@ main {
 
 .service-icon-box { margin-bottom: 10px; }
 
-.service-icon-box img { margin: auto; }
+.service-icon-box img { margin: auto;  }
 
 .service-content-box { text-align: center; }
 
@@ -1879,4 +1879,15 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+.rights{
+  text-align: center;
+  color: #414141; /* Light gray color */
+  font-size: 12px;
+  padding: 30px 0;
+}
+@media (max-width: 768px) {
+  .rights {
+    font-size: 10px; /* Adjust font size for smaller screens */
+  }
 }
